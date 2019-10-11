@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>IMDB</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <link rel="stylesheet" href="lib/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-toggler fixed-top" id="navbar">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="img/imdb.jpeg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MOVIES <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TV SERIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHOTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EVENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TRAILERS</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control" type="text" placeholder="Find Movies, TV Shows and more.">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+                <div>
+                    <i class="nav-btn fas fa-bookmark"></i>
+                    <i class="nav-btn fas fa-user-circle"></i>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <div class="showcase-card">
+        <img class="card-img loading" src="img/avengers.jpg" alt="avengers">
+    </div>
+
+    <div class="container text-left">
+        <p class="box-office">AVENGERS: BOX OFFICE</p>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top loading" src="img/endgame.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Endgame</h5>
+                    <p class="card-text">$ 25</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top loading" src="img/infinity.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Infinity War</h5>
+                    <p class="card-text">$ 28.5</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top loading" src="img/civil_war.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Civil War</h5>
+                    <p class="card-text">$ 20</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</body>
+</html>
